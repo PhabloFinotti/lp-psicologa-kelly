@@ -50,117 +50,77 @@ document.onload = $(function () {
   const eventData = {
     1: {
       name: 'A Self do Terapeuta',
-      description: `<p>✨Lançamento do Livro “O Self do Terapeuta”✨</p>
-      <p>Foi um prazer imenso compartilhar com todos o lançamento do livro “O Self do Terapeuta”, obra que tivemos a honra de receber a co-autora e a talentosa Psicóloga Danielle Damo. O evento também contou com um Soirée exclusivo para profissionais de Psicologia e terapeutas sistêmicos, que organizamos com tanto carinho em parceria com Michelly Martinely e a LIASIS.</p>`,
+      description: `
+        <p>Com imensa alegria e gratidão, compartilho um momento especial: o lançamento do livro “O Self do Terapeuta”, uma obra sensível e potente que nos convida a refletir sobre quem somos na prática clínica — além das técnicas, dentro da relação.</p>
+        <p>Tivemos a honra de receber a coautora, a brilhante Psicóloga Danielle Damo, em um encontro marcado por trocas significativas, afetos e profunda escuta entre colegas e profissionais da Psicologia.</p>
+        <p>O evento foi ainda mais especial por ter sido realizado durante um Soirée exclusivo para psicólogos e terapeutas sistêmicos, organizado com muito cuidado e propósito, em parceria com Michelly Martinely, Yuri Rander e a LIASIS — uma noite de inspiração, pertencimento e valorização da nossa prática.</p>
+        <p>Sigo com o coração nutrido por essa experiência e com a certeza de que o caminho da Psicologia é feito de encontros que transformam, sustentados pela ética, pelo afeto e pelo compromisso constante com o conhecimento.</p>
+        <p>Que venham os próximos capítulos — dentro e fora dos livros.</p>
+      `,
       prefix: 'self-do-terapeuta',
       quantity: 10,
       type: 'jpeg',
     },
     2: {
-      name: 'Palestra Fan Noroeste',
-      description: `<p>Palestra para a turma de Pedagogia da faculdade Fan Noroeste.</p>`,
-      prefix: 'palestra-fan-noroeste',
-      quantity: 2,
-      type: 'jpeg',
-    },
-    3: {
-      name: 'Seminário de Psicologia Jurídica e Avaliação Psicológica do CrP09',
+      name: 'Seminário de Psicologia Jurídica do CRP-09',
       description: `
-        <p>“A vida é uma constante jornada de aprendizado. Cada experiência, cada desafio nos molda e nos torna quem somos.”</p>
-        <p>
-          Deixando Registrado o Seminário de Psicologia Jurídica e Avaliação Psicológica do CrP09.
-          Um dia de muitas trocas, aprendizados e oportunidades.
-          Fico sempre feliz e grato por estar próximo de pessoas extraordinárias.
-        </p>
+        <p>A caminhada é feita de trocas e aprendizados</p>
+        <p>A vida profissional é uma construção contínua, feita de experiências que nos desafiam, ampliam a escuta e fortalecem nossa atuação.</p>
+        <p>Como psicóloga perita, parecerista e assistente técnica, sigo firme no compromisso com a ética, o conhecimento e a escuta qualificada.</p>
+        <p>Deixo registrado com alegria a participação no Seminário de Psicologia Jurídica e Avaliação Psicológica do CRP09.</p>
+        <p>Um dia repleto de reflexões potentes, partilhas enriquecedoras e encontros que renovam a esperança no trabalho comprometido com a justiça e a proteção de direitos.</p>
+        <p>É sempre uma honra estar entre profissionais que acreditam no poder transformador da Psicologia. Sigamos juntas(os), aprendendo, contribuindo e evoluindo.</p>
       `,
       prefix: 'seminario-crp09',
       quantity: 4,
       type: 'jpeg',
     },
-    4: {
-      name: 'Teste HTP 02',
-      description: `
-        <p>“Multiplicando saberes, fortalecendo a prática: a sinergia como impulsionadora da nossa jornada de aprendizado.”</p>
-        <p>E assim foi o curso de formação no novo teste de HTP, ministrado pela psicóloga e professora acadêmica @sararcribeiro.</p>
-        <p>Estou imensamente feliz por mais projeto que deu certo, que conseguimos sair ainda melhores, com foco no conhecimento e no crescimento através da aprendizagem.</p>
-        <p>Grato por cada um que fez parte dessa turma, cada amizade que a psicologia me trouxe e cada um que é referência para mim.</p>
-        <p>Com coração grato e pensando no próximo rsrs desafio é conhecimento me move.</p>
-        <br>
-        <p><strong>Yuri Rander</strong></p>
-        <p>Psicólogo CRP09.16202</p>
-      `,
-      prefix: 'teste-htp02',
-      quantity: 8,
-      type: 'jpeg',
-    },
-    5: {
+    3: {
       name: 'Teste HTP',
       description: `
-        <p>“Multiplicando saberes, fortalecendo a prática: a sinergia como impulsionadora da nossa jornada de aprendizado.”</p>
-        <p>E assim foi o curso de formação no novo teste de HTP, ministrado pela psicóloga e professora acadêmica @sararcribeiro.</p>
-        <p>Estou imensamente feliz por mais projeto que deu certo, que conseguimos sair ainda melhores, com foco no conhecimento e no crescimento através da aprendizagem.</p>
-        <p>Grato por cada um que fez parte dessa turma, cada amizade que a psicologia me trouxe e cada um que é referência para mim.</p>
-        <p>Com coração grato e pensando no próximo rsrs desafio é conhecimento me move.</p>
-        <br>
-        <p><strong>Yuri Rander</strong></p>
-        <p>Psicólogo CRP09.16202</p>
+        <p>"Formação contínua como expressão do compromisso ético com a escuta técnica e a justiça psicológica."</p>
+        <p>Assim foi o curso de formação no novo teste de HTP (House-Tree-Person), conduzido com excelência pela psicóloga e professora acadêmica @sararcribeiro — uma experiência rica em conhecimento, trocas e aprofundamento técnico.</p>
+        <p>Como psicóloga atuante na área jurídica, reafirmo o compromisso com a avaliação psicológica responsável, ética e fundamentada, especialmente nos contextos que envolvem a escuta técnica e os processos judiciais.</p>
+        <p>A formação contínua é parte essencial desse percurso. Sigo imensamente feliz por mais uma etapa concluída, convicta de que o aprendizado constante é o que nos move, nos fortalece e qualifica a prática. Gratidão a cada colega que compartilhou essa jornada, às amizades que a Psicologia me proporcionou e às referências que continuam me inspirando.</p>
+        <p>Com o coração grato, sigo em movimento, porque o conhecimento é o meu Norte. E o próximo desafio já me espera.</p>
       `,
       prefix: 'teste-htp',
       quantity: 4,
       type: 'jpeg',
     },
-    6: {
-      name: 'Liga Sistêmica',
+    4: {
+      name: 'Palestras nas empresas, atendendo as NR’S e a CIPA',
       description: `
-        <p>Ontem participei de um curso introdutório da @ligasistemica.</p>
-        <p>Levando uma palestra sobre “ Pensamento Sistêmico: entendendo os conceitos para um olhar além a clínica.”</p>
-        <p>Feliz por sempre contribuir com o conhecimento científico da psicologia.</p>
-        <p>Parabéns a diretoria pela organização, e feliz por palestrar ao lado da @reisscarol</p>
+        <p>A Psicologia Aplicada às NRs: Cuidar de Pessoas é Cumprir a Norma com Propósito e Segurança. Com mais de dez anos de experiência como psicóloga palestrante em empresas e Industrias, venho contribuindo ativamente para a promoção da saúde mental no ambiente corporativo, alinhando minha atuação às exigências das Normas Regulamentadoras, em especial a NR-01, que trata das disposições gerais e do gerenciamento de riscos ocupacionais.</p>
+        <p>Minhas palestras e treinamentos têm como foco não apenas o cumprimento das NRs, mas a construção de ambientes mais saudáveis, cooperativos e conscientes. Utilizo uma abordagem pedagógica interativa, com dinâmicas divertidas, participativas e cheias de significado, promovendo envolvimento real dos colaboradores com os temas abordados. Com base nos aspectos psicossociais e nas demandas específicas de cada organização, desenvolvo conteúdos que abordam temas como:</p>
+        <ul>
+          <li>Saúde emocional e prevenção de adoecimentos; físico e mental</li>
+          <li>Comunicação assertiva e relações interpessoais no trabalho;</li>
+          <li>Gestão de conflitos e fortalecimento de equipes;</li>
+          <li>Prevenção de riscos comportamentais e promoção da qualidade de vida.</li>
+        </ul>
+        <p>E diversos outros temas quando necessário.</p>
+        <p>Cada encontro é planejado para ser leve, dinâmico e impactante, respeitando a cultura da empresa e garantindo que a experiência vá além do informativo – promovendo reflexão, engajamento e transformação real. Se sua empresa busca atender às Normas Regulamentadoras, em especial a NR01 com responsabilidade, afeto e sentido, estou pronta para contribuir com uma atuação ética, acolhedora e profundamente comprometida com as pessoas.</p>
+        <p>Kelly Barbosa Psicóloga Palestrante | Especialista em Saúde Emocional no Trabalho | Atuação em NRs (incluindo NR-01)</p>
       `,
-      prefix: 'liga-sistemica',
+      prefix: 'palestras-empresas-nrs-cipa',
       quantity: 3,
       type: 'jpeg',
     },
-    7: {
-      name: 'Curso Rorschach',
+    5: {
+      name: 'Curso Rorschach R-PAS',
       description: `
-        <p>“Multiplicando saberes, fortalecendo a prática: a sinergia como impulsionadora da nossa jornada de aprendizado.”</p>
-        <p>E assim foi o curso de formação no teste de Rorscharch pelo sistema R-Pas, ministrado pela psicóloga e professora acadêmica Ignez Stephanini. </p>
-        <p>Estou imensamente feliz por mais projeto que deu certo, que conseguimos sair ainda melhores, com foco no conhecimento e no crescimento através da aprendizagem.</p>
-        <p>Grato por cada um que fez parte dessa turma, cada amizade que a psicologia me trouxe e cada um que é referência para mim.</p>
-        <p>Com coração grato e pensando no próximo rsrs desafio é conhecimento me move.</p>
-        <p>Yuri Rander</p>
-        <p>Psicólogo CRP09.16202</p>
+        <p>Curso Rorschach R-PAS - "Multiplicando saberes, fortalecendo a prática: a sinergia como impulsionadora da nossa jornada de aprendizado."</p>
+        <p>Assim foi o curso de formação no Teste de Rorschach pelo sistema R-PAS, ministrado pela experiente psicóloga e professora Ignez Stephanini — um encontro técnico, humano e profundamente transformador.</p>
+        <p>Sigo imensamente feliz por mais uma etapa concluída com sucesso! Um projeto que deu certo, que nos exigiu presença, escuta e troca genuína, e do qual saio ainda mais preparada, convicta de que o conhecimento é caminho de crescimento e responsabilidade.</p>
+        <p>Gratidão a cada colega que compartilhou essa jornada, às amizades que a Psicologia me trouxe e às tantas referências que me inspiram todos os dias. Aprender em conjunto sempre amplia o olhar e fortalece a prática.</p>
+        <p>Com o coração grato e a mente aberta, sigo movida por aquilo que me sustenta: o conhecimento. E que venham os próximos desafios — porque crescer também é uma escolha diária.</p>
+        <br>
+        <p><strong>Kelly Barbosa</strong></p>
+        <p>Psicóloga CRP09/ 4856</p>
       `,
       prefix: 'curso-rorschach',
       quantity: 5,
-      type: 'jpeg',
-    },
-    8: {
-      name: 'Psicólogo Jurídico',
-      description: `
-        <p>🎓📚 Tive a honra de ministrar uma aula sobre a atuação do psicólogo jurídico na área do trabalho, a convite da professora Dra. Analice Vinhal, no Instituto Goiano do Direito (IGD).</p>
-        <p>Uma troca rica com estudantes de Direito, refletindo sobre os desafios da perícia, os laudos, e a interface ética e técnica entre Psicologia e Justiça do Trabalho. ⚖️🧠</p>
-        <p>Grato pela acolhida e pela oportunidade de contribuir com a formação de futuros profissionais comprometidos com a saúde e os direitos no ambiente laboral!</p>
-        <p>#PsicologiaJurídica #PsicologiaDoTrabalho #DireitoDoTrabalho #YuriRander #PsicólogoJurídico #IGD #formacaointerdisciplinar #psiyurirander #yuriranderpsicologo</p>
-      `,
-      prefix: 'psicologo-juridico',
-      quantity: 3,
-      type: 'jpeg',
-    },
-    9: {
-      name: '11ª Feira da Psicologia',
-      description: `
-        <p>🎥✨ #euvim e estive presente na 11ª Feira da Psicologia – um verdadeiro hub de soluções e conexões para quem vive a psicologia na prática!</p>
-        <p>Foram momentos de muito aprendizado, trocas riquíssimas e reflexões sobre gestão clínica, inovação e fortalecimento da nossa atuação profissional. 💼🧠</p>
-        <p>🔹 Psicologia que transforma.</p>
-        <p>🔹 Psicologia que empreende.</p>
-        <p>🔹 Psicologia que constrói saúde mental com responsabilidade e excelência.</p>
-        <p>Seguimos guiando caminhos confiáveis para a saúde mental no Brasil! 💙</p>
-        <p>#FeiraDaPsicologia #PsicologiaEmpreendedora #SaúdeMental #YuriRander #PsicologiaJurídica #ClínicaPsicológica #EventosDePsicologia</p>
-      `,
-      prefix: '11-feira-da-psicologia',
-      quantity: 6,
       type: 'jpeg',
     },
   };
