@@ -156,6 +156,11 @@ h1, h2, h3, h4, h5, h6{
 /******* BTNS *******/
 
 /******* HEADER *******/
+header li,
+footer li{
+  list-style: none;
+}
+
 .header {
   position: sticky;
   background-color: var(--white);
@@ -496,11 +501,22 @@ h1, h2, h3, h4, h5, h6{
   border-radius: var(--border-radius);
 }
 
-#especialidade .card-body h4 {
-  font-family: 'Roboto Slab', serif;
-}
 #especialidade .card-body {
   padding: 1em 2em 2em;
+  max-height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#especialidade .card-body .card-body-content{
+  height: 100%;
+  overflow: auto;
+  padding: 1rem .3rem 0 0;
+  flex-grow: 1;
+}
+#especialidade .card-body h4 {
+  font-family: 'Roboto Slab', serif;
 }
 
 #especialidade .card-body span {
@@ -540,6 +556,12 @@ h1, h2, h3, h4, h5, h6{
   padding: 2em;
   background-color: var(--white);
   border-radius: var(--border-radius);
+}
+
+.biografia-box-content {
+  max-height: 700px;
+  overflow: auto;
+  padding-right: .5rem;
 }
 
 
@@ -1288,3 +1310,23 @@ footer .card a:hover {
   font-size: 20px;
   margin-left: 1px;
 }
+
+
+/* SCROLL BARRA LATERAL */
+
+body *::-webkit-scrollbar-track {
+  border-radius: var(--border-radius);
+  background-color: #eeeeee;
+}
+
+body *::-webkit-scrollbar {
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+body *::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: var(--color-secondary);
+}
+
+/* SCROLL BARRA LATERAL */
