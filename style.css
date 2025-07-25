@@ -5,12 +5,12 @@
 :root {
   --white: #fff;
   --bg-primary: #646a75;
-  --bg-secondary: #41448c;
-  --bg-soft: #e4e8f5;
+  --bg-secondary: #71906b;
+  --bg-soft: #e4eae1;
   --bg-accent: #ffffff;
-  --color-secondary: #474da2;
-  --color-secondary-soft: #adbbe3;
-  --color-dark: #d0cfd6;
+  --color-secondary: #567950;
+  --color-secondary-soft: #b0c9ac;
+  --color-dark: #d2d6cf;
   --color-offwhite: #f7f8f9;
   --color-black: #333;
   --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
@@ -291,8 +291,8 @@ footer li{
   position: relative;
   height: 550px;
   background: #1f4037;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #262745, #5561bb);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #262745, #5561bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #40593c, #98b792);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #40593c, #98b792); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--white);
 }
 
@@ -676,8 +676,8 @@ footer li{
  
 
   background: #1f4037;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #262745, var(--color-secondary));  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #262745, var(--color-secondary)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #40593c, #6c8e66);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #40593c, #6c8e66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--white);
 }
 
