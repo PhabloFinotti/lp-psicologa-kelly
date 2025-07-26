@@ -51,14 +51,14 @@ document.onload = $(function () {
     1: {
       name: 'A Self do Terapeuta',
       description: `
-        <p>Com imensa alegria e gratidão, compartilho um momento especial: o lançamento do livro “O Self do Terapeuta”, uma obra sensível e potente que nos convida a refletir sobre quem somos na prática clínica — além das técnicas, dentro da relação.</p>
+        <p>Com imensa alegria e gratidão, compartilho um momento especial: o lançamento do livro “O Self do Terapeuta”, uma obra sensível e potente que nos convida a refletir sobre quem somos na prática clínica, além das técnicas, dentro da relação.</p>
         <p>Tivemos a honra de receber a coautora, a brilhante Psicóloga Danielle Damo, em um encontro marcado por trocas significativas, afetos e profunda escuta entre colegas e profissionais da Psicologia.</p>
-        <p>O evento foi ainda mais especial por ter sido realizado durante um Soirée exclusivo para psicólogos e terapeutas sistêmicos, organizado com muito cuidado e propósito, em parceria com Michelly Martinely, Yuri Rander e a LIASIS — uma noite de inspiração, pertencimento e valorização da nossa prática.</p>
+        <p>O evento foi ainda mais especial por ter sido realizado durante um Soirée exclusivo para psicólogos e terapeutas sistêmicos, organizado com muito cuidado e propósito, em parceria com Michelly Martinely, Yuri Rander e a LIASIS. Uma noite de inspiração, pertencimento e valorização da nossa prática.</p>
         <p>Sigo com o coração nutrido por essa experiência e com a certeza de que o caminho da Psicologia é feito de encontros que transformam, sustentados pela ética, pelo afeto e pelo compromisso constante com o conhecimento.</p>
-        <p>Que venham os próximos capítulos — dentro e fora dos livros.</p>
+        <p>Que venham os próximos capítulos, dentro e fora dos livros.</p>
       `,
       prefix: 'self-do-terapeuta',
-      quantity: 10,
+      quantity: 5,
       type: 'jpeg',
     },
     2: {
@@ -71,21 +71,28 @@ document.onload = $(function () {
         <p>Um dia repleto de reflexões potentes, partilhas enriquecedoras e encontros que renovam a esperança no trabalho comprometido com a justiça e a proteção de direitos.</p>
         <p>É sempre uma honra estar entre profissionais que acreditam no poder transformador da Psicologia. Sigamos juntas(os), aprendendo, contribuindo e evoluindo.</p>
       `,
-      prefix: 'seminario-crp09',
-      quantity: 4,
+      prefix: 'congresso-regional-de-psicologia',
+      quantity: 6,
       type: 'jpeg',
     },
+    // 3: {
+    //   name: 'Teste HTP',
+    //   description: `
+    //     <p>"Formação contínua como expressão do compromisso ético com a escuta técnica e a justiça psicológica."</p>
+    //     <p>Assim foi o curso de formação no novo teste de HTP (House-Tree-Person), conduzido com excelência pela psicóloga e professora acadêmica @sararcribeiro, uma experiência rica em conhecimento, trocas e aprofundamento técnico.</p>
+    //     <p>Como psicóloga atuante na área jurídica, reafirmo o compromisso com a avaliação psicológica responsável, ética e fundamentada, especialmente nos contextos que envolvem a escuta técnica e os processos judiciais.</p>
+    //     <p>A formação contínua é parte essencial desse percurso. Sigo imensamente feliz por mais uma etapa concluída, convicta de que o aprendizado constante é o que nos move, nos fortalece e qualifica a prática. Gratidão a cada colega que compartilhou essa jornada, às amizades que a Psicologia me proporcionou e às referências que continuam me inspirando.</p>
+    //     <p>Com o coração grato, sigo em movimento, porque o conhecimento é o meu Norte. E o próximo desafio já me espera.</p>
+    //   `,
+    //   prefix: 'teste-htp',
+    //   quantity: 4,
+    //   type: 'jpeg',
+    // },
     3: {
-      name: 'Teste HTP',
-      description: `
-        <p>"Formação contínua como expressão do compromisso ético com a escuta técnica e a justiça psicológica."</p>
-        <p>Assim foi o curso de formação no novo teste de HTP (House-Tree-Person), conduzido com excelência pela psicóloga e professora acadêmica @sararcribeiro — uma experiência rica em conhecimento, trocas e aprofundamento técnico.</p>
-        <p>Como psicóloga atuante na área jurídica, reafirmo o compromisso com a avaliação psicológica responsável, ética e fundamentada, especialmente nos contextos que envolvem a escuta técnica e os processos judiciais.</p>
-        <p>A formação contínua é parte essencial desse percurso. Sigo imensamente feliz por mais uma etapa concluída, convicta de que o aprendizado constante é o que nos move, nos fortalece e qualifica a prática. Gratidão a cada colega que compartilhou essa jornada, às amizades que a Psicologia me proporcionou e às referências que continuam me inspirando.</p>
-        <p>Com o coração grato, sigo em movimento, porque o conhecimento é o meu Norte. E o próximo desafio já me espera.</p>
-      `,
-      prefix: 'teste-htp',
-      quantity: 4,
+      name: 'Congresso de Direitos de Família e sucessões Sá OAB - Goiás',
+      description: '',
+      prefix: 'congresso-de-direitos-de-familia',
+      quantity: 6,
       type: 'jpeg',
     },
     4: {
@@ -100,11 +107,11 @@ document.onload = $(function () {
           <li>Prevenção de riscos comportamentais e promoção da qualidade de vida.</li>
         </ul>
         <p>E diversos outros temas quando necessário.</p>
-        <p>Cada encontro é planejado para ser leve, dinâmico e impactante, respeitando a cultura da empresa e garantindo que a experiência vá além do informativo – promovendo reflexão, engajamento e transformação real. Se sua empresa busca atender às Normas Regulamentadoras, em especial a NR01 com responsabilidade, afeto e sentido, estou pronta para contribuir com uma atuação ética, acolhedora e profundamente comprometida com as pessoas.</p>
+        <p>Cada encontro é planejado para ser leve, dinâmico e impactante, respeitando a cultura da empresa e garantindo que a experiência vá além do informativo, promovendo reflexão, engajamento e transformação real. Se sua empresa busca atender às Normas Regulamentadoras, em especial a NR01 com responsabilidade, afeto e sentido, estou pronta para contribuir com uma atuação ética, acolhedora e profundamente comprometida com as pessoas.</p>
         <p>Kelly Barbosa Psicóloga Palestrante | Especialista em Saúde Emocional no Trabalho | Atuação em NRs (incluindo NR-01)</p>
       `,
-      prefix: 'palestras-empresas-nrs-cipa',
-      quantity: 3,
+      prefix: 'palestra-saude-mental-nr01',
+      quantity: 7,
       type: 'jpeg',
     },
     5: {
@@ -114,13 +121,55 @@ document.onload = $(function () {
         <p>Assim foi o curso de formação no Teste de Rorschach pelo sistema R-PAS, ministrado pela experiente psicóloga e professora Ignez Stephanini — um encontro técnico, humano e profundamente transformador.</p>
         <p>Sigo imensamente feliz por mais uma etapa concluída com sucesso! Um projeto que deu certo, que nos exigiu presença, escuta e troca genuína, e do qual saio ainda mais preparada, convicta de que o conhecimento é caminho de crescimento e responsabilidade.</p>
         <p>Gratidão a cada colega que compartilhou essa jornada, às amizades que a Psicologia me trouxe e às tantas referências que me inspiram todos os dias. Aprender em conjunto sempre amplia o olhar e fortalece a prática.</p>
-        <p>Com o coração grato e a mente aberta, sigo movida por aquilo que me sustenta: o conhecimento. E que venham os próximos desafios — porque crescer também é uma escolha diária.</p>
+        <p>Com o coração grato e a mente aberta, sigo movida por aquilo que me sustenta: o conhecimento. E que venham os próximos desafios, porque crescer também é uma escolha diária.</p>
         <br>
         <p><strong>Kelly Barbosa</strong></p>
         <p>Psicóloga CRP09/ 4856</p>
       `,
-      prefix: 'curso-rorschach',
-      quantity: 5,
+      prefix: 'curso-rorschach-rpas',
+      quantity: 6,
+      type: 'jpeg',
+    },
+    6: {
+      name: 'Curso de mediação Família em Foco - Ministrado por Eliane Pelles',
+      description: ``,
+      prefix: 'curso-familia-em-foco',
+      quantity: 4,
+      type: 'jpeg',
+    },
+    7: {
+      name: 'Curso de extensão do Sistema de Avaliação do Relacionamento (SARP). Com a Autora Viviane de Medeiros Lago',
+      description: ``,
+      prefix: 'curso-extensao-sarp',
+      quantity: 9,
+      type: 'jpeg',
+    },
+    8: {
+      name: 'Palestra no Banco Sicoob com o tema: Outubro Rosa 🌹',
+      description: ``,
+      prefix: 'palestra-sicoob',
+      quantity: 4,
+      type: 'jpeg',
+    },
+    9: {
+      name: 'Palestra com Dinâmica aos Jovens Aprendiz.',
+      description: ``,
+      prefix: 'palestra-jovem-aprendiz',
+      quantity: 4,
+      type: 'jpeg',
+    },
+    10: {
+      name: 'Palestra atendendo a Norma NR01',
+      description: ``,
+      prefix: 'palestra-norma-nr01',
+      quantity: 10,
+      type: 'jpeg',
+    },
+    11: {
+      name: 'Curso de capacitação. Tema: Autoconhecimento e Relacionamento Saudável no Ambiente de Trabalho',
+      description: ``,
+      prefix: 'curso-capacitacao-autoconhecimento-e-relacionamento-no-trabalho',
+      quantity: 10,
       type: 'jpeg',
     },
   };
