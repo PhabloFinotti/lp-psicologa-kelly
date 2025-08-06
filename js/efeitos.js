@@ -144,13 +144,13 @@ document.onload = $(function () {
       quantity: 9,
       type: 'jpeg',
     },
-    8: {
-      name: 'Palestra no Banco Sicoob com o tema: Outubro Rosa 🌹',
-      description: ``,
-      prefix: 'palestra-sicoob',
-      quantity: 4,
-      type: 'jpeg',
-    },
+    // 8: {
+    //   name: 'Palestra no Banco Sicoob com o tema: Outubro Rosa 🌹',
+    //   description: ``,
+    //   prefix: 'palestra-sicoob',
+    //   quantity: 4,
+    //   type: 'jpeg',
+    // },
     9: {
       name: 'Palestra com Dinâmica aos Jovens Aprendiz.',
       description: ``,
