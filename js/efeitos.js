@@ -169,7 +169,7 @@ document.onload = $(function () {
       name: 'Curso de capacitação. Tema: Autoconhecimento e Relacionamento Saudável no Ambiente de Trabalho',
       description: ``,
       prefix: 'curso-capacitacao-autoconhecimento-e-relacionamento-no-trabalho',
-      quantity: 10,
+      quantity: 8,
       type: 'jpeg',
     },
   };
